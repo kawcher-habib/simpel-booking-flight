@@ -13,7 +13,6 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-
 nav{
     height: 50px;
     width: 100%;
@@ -71,8 +70,7 @@ nav ul li a:hover, a.active{
     padding: 5px;
     margin-top: 10px;
     word-spacing: 20px;
-    cursor:default;
-    
+    cursor:default; 
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -113,19 +111,23 @@ nav ul li a:hover, a.active{
         background: #f5f2f2;
         text-align: center;
         border-radius: 5px;
-        display: none;
-        
+        display: none;  
 }
 #Booking-success h2{
     color: #35ef35;
 }
 #Booking-success h4{
     color: #606d60;
-    margin-top: 5px;
+    margin: 10px 0;
 }
 #Booking-success img{
     width: 30%;
-    
+    background: steelblue;
+}
+#safe{
+    font-size: 30px;
+    color: #05030770;
+    margin: 10px 0;
 }
 .btn-style{
     display: block;
